@@ -1,0 +1,26 @@
+{
+    "name": "bb3mobi/posts_sig",
+    "type": "phpbb-extension",
+    "description": "Exclude signatures for minimum number of users posts",
+    "homepage": "http://phpbbguru.net",
+    "version": "1.0.0",
+    "time": "2016-03-22",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Anvar",
+            "email": "anvar.all@mail.ru",
+            "homepage": "http://bb3.mobi",
+            "role": "Developer phpBB"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Count posts user for display signature",
+        "soft-require": {
+        "phpbb/phpbb": "3.1.*@dev"
+        }
+    }
+}

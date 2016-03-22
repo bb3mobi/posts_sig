@@ -1,0 +1,7 @@
+services:
+    bb3mobi.posts_sig.listener:
+        class: bb3mobi\posts_sig\event\listener
+        arguments:
+            - @config
+        tags:
+            - { name: event.listener }
